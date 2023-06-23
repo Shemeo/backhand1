@@ -38,7 +38,7 @@ def get_xrp_usdt_price():
         'convert': 'USDT'
     }
     headers = {
-        'X-CMC_PRO_API_KEY': 'YOUR_API_KEY'
+        'X-CMC_PRO_API_KEY': '2a5fa351-70f7-45ab-b9c9-80895d4e1b5f'
     }
     response = requests.get(url, params=parameters, headers=headers)
     data = response.json()
